@@ -9,19 +9,19 @@ class ProductSeeder {
       {
         'id': 1,
         'category_id': 1,
-        'name': 'Nasi Goreng Special',
-        'price': 25000.0,
-        'stock': 15,
-        'description': 'Nasi goreng dengan telur mata sapi dan ayam suwir.',
+        'name': 'Paket Lava Chicken',
+        'price': 16000.0,
+        'stock': 20,
+        'description': 'ayam geprek dengan topping lelehan saus lava yang pedas.',
         'images': [
-          'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500',
+          'https://kedaiexpo.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-21-at-15.14.53.jpeg',
         ],
       },
       {
         'id': 2,
         'category_id': 1,
         'name': 'Ayam Geprek Biasa',
-        'price': 15000.0,
+        'price': 9000.0,
         'stock': 24,
         'description':
             'Ayam goreng tepung digeprek dengan sambal korek level sedang.',
@@ -30,62 +30,61 @@ class ProductSeeder {
         ],
       },
       {
-        'id': 3, // OUT OF STOCK 1
+        'id': 3, 
         'category_id': 1,
         'name': 'Ayam Geprek Jumbo',
-        'price': 22000.0,
-        'stock': 0,
+        'price': 12000.0,
+        'stock': 10,
         'description':
-            'Potongan ayam lebih besar dengan ekstra sambal dan nasi.',
+            'Potongan ayam lebih besar dengan ekstra sambal dan pedasnya nagih.',
         'images': [
           'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500',
         ],
       },
       {
-        'id': 4,
+        'id': 4, // OUT OF STOCK 1
         'category_id': 1,
         'name': 'Ayam Geprek Keju',
-        'price': 20000.0,
-        'stock': 12,
+        'price': 18000.0,
+        'stock': 0,
         'description': 'Ayam geprek dengan topping lelehan keju mozarella.',
         'images': [
-          'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=500',
+          'https://plus.unsplash.com/premium_photo-1683657860968-7474e7ea2d80?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         ],
       },
       {
         'id': 5,
         'category_id': 1,
-        'name': 'Mie Goreng Jawa',
-        'price': 18000.0,
+        'name': 'Hot Spagetti',
+        'price': 15000.0,
         'stock': 30,
-        'description': 'Mie kuning masak bumbu tradisional dengan sayuran.',
+        'description': 'Mie pasta dengan taburan sosis dan saus pedas yang bikin nagih.',
         'images': [
-          'https://images.unsplash.com/photo-1585032226651-759b368d7246?w=500',
+          'https://www.telegraph.co.uk/content/dam/recipes/2021/03/04/TELEMMGLPICT000252466135.jpeg?imwidth=1280&imdensity=2',
         ],
       },
       {
-        'id': 6, // OUT OF STOCK 2
+        'id': 6, 
         'category_id': 1,
-        'name': 'Sate Ayam (10 Tusuk)',
-        'price': 28000.0,
+        'name': 'Paket Ayam Geprek Hemat',
+        'price': 10000.0,
         'stock': 0,
-        'description': 'Sate ayam bumbu kacang khas Madura.',
+        'description': 'paket ayam geprek yang hemat, dengan tambahan nasi + es teh + ayam geprek.',
         'images': [
-          'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=500',
+          'https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6d181136-ba70-4c1f-ba27-18659a8e76ed_Go-Biz_20210630_132117.jpeg',
         ],
       },
       {
         'id': 7,
         'category_id': 1,
-        'name': 'Bakso Sapi Solo',
-        'price': 20000.0,
-        'stock': 8,
-        'description': 'Bakso urat asli dengan kuah kaldu bening yang segar.',
+        'name': 'Paket Ayam Geprek Jumbo',
+        'price': 14000.0,
+        'stock': 28,
+        'description': 'paket ayam geprek dengan ukuran yang jumbo dapat dinikmati. Dengan tambahan nasi + es teh + ayam geprek jumbo.',
         'images': [
-          'https://images.unsplash.com/photo-1593001410780-010c2744241d?w=500',
+          'https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e831baba-a2d9-40d6-b37e-3c9fcab04449_Go-Biz_20251119_142626.jpeg',
         ],
       },
-
       // --- MINUMAN (Category 2) ---
       {
         'id': 8,
@@ -99,7 +98,7 @@ class ProductSeeder {
         ],
       },
       {
-        'id': 9, // OUT OF STOCK 3
+        'id': 9, // OUT OF STOCK 2
         'category_id': 2,
         'name': 'Es Jeruk Peras',
         'price': 7000.0,
@@ -112,39 +111,6 @@ class ProductSeeder {
       {
         'id': 10,
         'category_id': 2,
-        'name': 'Kopi Susu Gula Aren',
-        'price': 15000.0,
-        'stock': 20,
-        'description': 'Espresso dengan susu segar and gula aren cair.',
-        'images': [
-          'https://images.unsplash.com/photo-1553909489-eb2175c4078a?w=500',
-        ],
-      },
-      {
-        'id': 11, // OUT OF STOCK 4
-        'category_id': 2,
-        'name': 'Jus Alpukat',
-        'price': 12000.0,
-        'stock': 0,
-        'description': 'Jus alpukat kental dengan topping coklat.',
-        'images': [
-          'https://images.unsplash.com/photo-1589135304605-6147683649d8?w=500',
-        ],
-      },
-      {
-        'id': 12,
-        'category_id': 2,
-        'name': 'Es Campur',
-        'price': 15000.0,
-        'stock': 15,
-        'description': 'Berbagai macam buah dan jelly dengan sirup merah.',
-        'images': [
-          'https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?w=500',
-        ],
-      },
-      {
-        'id': 13,
-        'category_id': 2,
         'name': 'Lemon Tea Hot',
         'price': 8000.0,
         'stock': 22,
@@ -154,14 +120,14 @@ class ProductSeeder {
         ],
       },
       {
-        'id': 14, // OUT OF STOCK 5
+        'id': 11, 
         'category_id': 2,
         'name': 'Air Mineral 600ml',
         'price': 4000.0,
-        'stock': 0,
+        'stock': 50,
         'description': 'Air mineral kemasan botol dingin.',
         'images': [
-          'https://images.unsplash.com/photo-1523362628744-0c14a39f9f8b?w=500',
+          'https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f83d30ed-afd4-4aa1-9848-f8ad4778ef7c_Go-Food-Merchant_20250423_201608.jpeg',
         ],
       },
     ];
